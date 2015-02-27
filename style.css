@@ -1,0 +1,79 @@
+/*
+    Theme Name:   Minimal Twelve
+    Theme URI:    http://github.com/openjck/minimaltwelve
+    Description:  More minimalistic child theme of Twenty Twelve
+    Author:       John Karahalis
+    Author URI:   http://openjck.com
+    Template:     twentytwelve
+    Version:      1.0.0
+    License:      GNU General Public License v2 or later
+    License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+    Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+    Text Domain:  minimaltwelve
+*/
+
+/*** Layout ***/
+
+/* Hide the horizontal menu that normally appears near the top of the page */
+#site-navigation {
+    display: none;
+}
+
+/* Remove the margin that would have separated the menu and other content */
+.site-content, #secondary {
+    margin-top: 0;
+}
+
+/* Hide the footer */
+#colophon {
+    display: none;
+}
+
+
+/*** Homepage ***/
+
+/* Space articles more consistently on the homepage */
+.home article {
+    margin-bottom: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+.home article p:last-child {
+    margin-bottom: 0;
+}
+
+/* Remove the bottom border and bottom padding of the last homepage article */
+.home article:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Hide entry metadata ("This entry was posted...") on the homepage */
+.home .entry-meta {
+    display: none;
+}
+
+
+/*** Posts ***/
+
+/* Hide the reply link that normally appears near the top of the article */
+.comments-link {
+    display: none;
+}
+
+/* Hide the HTML tag guidelines that normally appear below the comment box */
+.form-allowed-tags {
+    display: none;
+}
+
+/* Hide links to earlier and later articles near the bottoms of posts */
+.nav-single {
+    display: none;
+}
+
+
+/*** Content ***/
+
+/* Remove margins below iframes; paragraphs already provide them */
+#content p iframe {
+    margin-bottom: 0;
+}
