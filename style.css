@@ -77,3 +77,11 @@
 #content p iframe {
     margin-bottom: 0;
 }
+
+
+/*** Plugins ***/
+
+/* Ultimate Social Media Icons widget */
+.sfsi_widget .norm_row {
+    width: 75% !important;
+}
