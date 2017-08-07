@@ -85,3 +85,6 @@
 .sfsi_widget .norm_row {
     width: 75% !important;
 }
+.sfsi_widget .sfsi_holder {
+    margin-bottom: 20px;
+}
